@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 21, 27);
+    height: 100vh;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    border: 2px dotted;
+    background-color: rgb(114, 141, 165);
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px;
+}
+
+input {
+    margin: 20px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#button_submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    box-shadow: 4px 4px;
+    left:0px;
+    margin-left: 9rem;
+}
+
+input:valid {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+img {
+    height: 290px;
+    border-radius: 4px;
+    box-shadow: 10px 10px;
+}
